@@ -40,7 +40,7 @@ const FakeNewsDetector = () => {
   return (
     <form onSubmit={handleSubmit}>
       <label>
-        Enter your Headline
+        Enter Headline
         <input type="text" value={headline} onChange={handleChange} />
       </label>
       <input type="submit" value="Submit" />
