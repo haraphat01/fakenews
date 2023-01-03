@@ -4,7 +4,7 @@ import './fake.css';
 const FakeNewsDetector = () => {
   const [headline, setHeadline] = useState('');
   const [result, setResult] = useState('');
-  const [clear, setClear] = useState('');
+  // const [clear, setClear] = useState('');
 
   const handleChange = (event) => {
     setHeadline(event.target.value);
