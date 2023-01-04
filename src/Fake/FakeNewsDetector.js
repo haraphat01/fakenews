@@ -26,6 +26,8 @@ const FakeNewsDetector = () => {
       'why',
       'what',
       'piggybacking',
+      'I',
+      'We'
     ];
 
     for (const keyword of keywords) {
